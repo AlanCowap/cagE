@@ -49,7 +49,7 @@ public class GameApp {
 			totalHumanPower += lives[i].getPower();
 			totalRobotPower += lives[++i].getPower();
 		}
-		// output winner of battle
+		// Output winner of battle
 		if(totalHumanPower > totalRobotPower){
 			System.out.println("Humans win: " + totalHumanPower +" vs " + totalRobotPower);
 		}else if (totalRobotPower > totalHumanPower){
