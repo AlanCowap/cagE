@@ -55,7 +55,7 @@ public class GameApp {
 			System.out.println("Robots win: " + totalRobotPower +" vs "+ totalHumanPower);
 		}else{
 			System.out.println("It's a draw: " + totalHumanPower +" vs " + totalRobotPower);
-		}
+		}//
 		
 	}
 	
