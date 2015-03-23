@@ -11,8 +11,13 @@ public class Lifeform {
 	}
 	
 	
+	public int getPower() {
+		return power;
+	}
+
+
 	@Override
 	public String toString(){
-		return (this.uniqueId +" "+ this.power);
+		return (this.uniqueId +" "+ this.getPower());
 	}
 }
